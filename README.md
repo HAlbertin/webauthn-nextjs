@@ -27,6 +27,7 @@ If you want (and I recommend) to understand what is and why WebAuthn exists, ple
 **4.** The `middleware.ts` can now check if the user is logged in by the JWT verification and the protected routes will be available
 
 ![Register flow](doc_images/register.png)
+
 Process available at https://webauthn.wtf/how-it-works/registration
 
 ## Login
@@ -41,6 +42,7 @@ Process available at https://webauthn.wtf/how-it-works/registration
 **3.** Receive a JWT token by the [Set-Cookie Response Header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie) that can be used as a session for the user
 
 ![Login flow](doc_images/login.png)
+
 Process available at https://webauthn.wtf/how-it-works/authentication
 
 ## TODO (things that can be enhanced)
